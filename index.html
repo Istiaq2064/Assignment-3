@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+    <!-- Font-Icon -->
+  <script src="https://kit.fontawesome.com/3dc00dd864.js" crossorigin="anonymous"></script>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS linkup -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- DaisyUI Linkup -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+              fontfamily{
+      manrope: ['Manrope', 'sans-serif']
+    }
+          }
+        }
+  </script>
+</head>
+<header>
+    <nav class="justify-between">
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Services</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <h3 class="font-extrabold"><i
+              class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-[#ABEF5F] mr-2 p-1"></i>Rinterio</h3>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="font-bold text-black">Home</a></li>
+            <li><a class=" text-[#737373]">Services</a></li>
+            <li><a class=" text-[#737373]">Services</a></li>
+            <li><a class=" text-[#737373]">Blogs</a></li>
+            <li><a class=" text-[#737373]">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end hidden lg:flex">
+          <div class="hidden lg:inline-flex">
+            <i class="fa-solid fa-magnifying-glass border rounded-full bg-white p-3 mr-2 text-[#737373]"></i>
+            <i class="fa-solid fa-cart-shopping border rounded-full bg-white p-3 mr-2 text-[#737373]"></i>
+          </div>
+          <button class="lg:text-xl rounded-3xl border bg-[#ABEF5F] p-3">Book Consult <i
+              class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-black text-white ml-2 p-1"></i></button>
+        </div>
+
+        <div class=" inline-flex lg:hidden">
+          <i class="fa-solid fa-bars ml-2 "></i>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="flex justify-center items-center mb-4">
+        <img src="./assets/banner.png" alt="">
+      </div>
+      <div>
+        <h1 class=" font-extrabold text-[28px] text-center mb-6 lg:font-extrabold text-7xl text-center mb-6">A barn
+          house of this design has a <br> striking appearance</h1>
+        <p
+          class="text-slate-500 text-[14px] font-medium mb-5 text-center lg:text-slate-500 text-base font-medium mb-8 text-center">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
+          sleek metal accents, <br> and large windows that flood the space with natural light.</p>
+        <div class="flex justify-center items-center">
+          <button class="text-xl border rounder-4xl bg-[#ABEF5F] lg:text-xl border rounded-3xl  bg-[#ABEF5F] p-3">Book
+            Consult<i
+              class="fa-solid fa-arrow-right -rotate-45 border rounded-full bg-black text-white ml-2 p-1"></i></button>
+        </div>
+      </div>
+  </header>
+</html>
